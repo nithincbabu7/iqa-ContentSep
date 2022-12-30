@@ -208,12 +208,13 @@ with torch.no_grad():
 
     print("computed vr and sigmar")
 
+    ## Change the image locations of authentically distorted images accordingly by changing img_dir.
+
     if args.dataset == 'LIVEC':
         img_dir = './dataset_images/LIVEC/Images/'
         data_loc = './datasets/LIVEC.csv'
         dataset = LIVE_Challenge(img_dir, data_loc)
         loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False)
-
     elif args.dataset == 'KONIQ':
         img_dir = './dataset_images/KONIQ/1024x768/'
         data_loc = './datasets/KONIQ.csv'
