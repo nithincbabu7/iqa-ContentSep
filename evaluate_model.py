@@ -209,27 +209,23 @@ with torch.no_grad():
     print("computed vr and sigmar")
 
     if args.dataset == 'LIVEC':
-        # img_dir = ./dataset_images/LIVEC/Images/'
-        img_dir = 'E:/IISc/VIP Lab/datasets/ChallengeDB_release/Images/'
+        img_dir = './dataset_images/LIVEC/Images/'
         data_loc = './datasets/LIVEC.csv'
         dataset = LIVE_Challenge(img_dir, data_loc)
         loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False)
 
     elif args.dataset == 'KONIQ':
-        # img_dir = './dataset_images/KONIQ/1024x768/'
-        img_dir = 'E:/IISc/VIP Lab/datasets/KonIQ-10k/1024x768/'
+        img_dir = './dataset_images/KONIQ/1024x768/'
         data_loc = './datasets/KONIQ.csv'
         dataset = KONIQ_10k(img_dir, data_loc)
         loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False)
     elif args.dataset == 'LIVEFB':
-        # img_dir = './dataset_images/LIVEFB/'
-        img_dir = 'E:/IISc/VIP Lab/datasets/LIVE_FB/'
+        img_dir = './dataset_images/LIVEFB/'
         data_loc = './datasets/LIVEFB.csv'
         dataset = LIVE_FB(img_dir, data_loc)
         loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False)
     elif args.dataset == 'CID':
-        # img_dir = './dataset_images/CID2013/'
-        img_dir = 'E:/IISc/VIP Lab/datasets/CID2013/'
+        img_dir = './dataset_images/CID2013/'
         data_loc = './datasets/CID2013.csv'
         dataset = CID2013(img_dir, data_loc)
         loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=False)
