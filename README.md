@@ -4,7 +4,7 @@ Nithin C. Babu, Vignesh Kannan and Rajiv Soundararajan
 </p>
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=Vgw0ithqHxE"><img src="https://img.youtube.com/vi/Vgw0ithqHxE/maxresdefault.jpg" width="100"></a>
+<a href="https://www.youtube.com/watch?v=Vgw0ithqHxE"><img src="./imgs/yt_thumb.jpg" width="150"></a>
 </p>
 
 <p align="center">
