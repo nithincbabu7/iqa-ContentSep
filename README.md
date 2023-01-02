@@ -1,7 +1,17 @@
-# No Reference Opinion Unaware Quality Assessment of Authentically Distorted Images
+# <p align="center">No Reference Opinion Unaware Quality Assessment of Authentically Distorted Images</p>
+<p align="center">
 Nithin C. Babu, Vignesh Kannan and Rajiv Soundararajan
+</p>
 
-Official pytorch implementation of the WACV'23 paper "**No Reference Opinion Unaware Quality Assessment of Authentically Distorted Images**".
+<p align="center">
+<a href="https://www.youtube.com/watch?v=Vgw0ithqHxE"><img src="https://img.youtube.com/vi/Vgw0ithqHxE/maxresdefault.jpg" width="100"></a>
+</p>
+
+<p align="center">
+<a>Official pytorch implementation of the WACV'23 paper:</a><br>
+<a href="https://openaccess.thecvf.com/content/WACV2023/html/Babu_No_Reference_Opinion_Unaware_Quality_Assessment_of_Authentically_Distorted_Images_WACV_2023_paper.html">No Reference Opinion Unaware Quality Assessment of Authentically Distorted Images</a>
+
+</p>
 
 ![Architecture](./imgs/MainArch3.jpg)
 
