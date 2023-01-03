@@ -34,6 +34,7 @@ python ./evaluate_model.py --dataset LIVEFB --model_weights ./pre_trained_models
 python ./evaluate_model.py --dataset CID --model_weights ./pre_trained_models/auth_ft_cd.pth --eval_result_dir ./results/auth_ft_cd/
 ```
 ## Citation
+If you find this work useful for your research, please cite our paper:
 ```
 @InProceedings{iqa_content_sep,
     author    = {Babu, Nithin C. and Kannan, Vignesh and Soundararajan, Rajiv},
