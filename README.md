@@ -33,3 +33,14 @@ python ./evaluate_model.py --dataset KONIQ --model_weights ./pre_trained_models/
 python ./evaluate_model.py --dataset LIVEFB --model_weights ./pre_trained_models/auth_ft_cd.pth --eval_result_dir ./results/auth_ft_cd/
 python ./evaluate_model.py --dataset CID --model_weights ./pre_trained_models/auth_ft_cd.pth --eval_result_dir ./results/auth_ft_cd/
 ```
+## Citation
+```
+@InProceedings{iqa_content_sep,
+    author    = {Babu, Nithin C. and Kannan, Vignesh and Soundararajan, Rajiv},
+    title     = {No Reference Opinion Unaware Quality Assessment of Authentically Distorted Images},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {2459-2468}
+}
+```
