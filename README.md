@@ -15,6 +15,20 @@ Nithin C. Babu, Vignesh Kannan and Rajiv Soundararajan
 
 ![Architecture](./imgs/MainArch3.jpg)
 
+## Environment
+Add this.
+
+## Training
+### Synthetic data pretraining
+```
+python ./synthetic_pretraining.py --log
+```
+
+### Authentic data fine-tuning
+```
+python ./authentic_finetuning.py --log --mi_contrastive
+```
+
 ## Performance evaluation
 ### Pre-trained weights
 Google drive link for pre-trained weights:
