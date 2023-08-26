@@ -142,11 +142,11 @@ with torch.no_grad():
     if not os.path.isdir(args.eval_result_dir):
         os.makedirs(args.eval_result_dir)
     toten = transforms.ToTensor()
-    refs = os.listdir('./dataset_images/pristine/')
     ps = args.patch_size
     p = args.sharpness_param
     pc = args.colorfulness_param
     if not os.path.isfile('./dataset_images/pristine_patches_%03d_%0.2f_%0.2f.hdf5' % (args.patch_size, args.sharpness_param, args.colorfulness_param)):
+        refs = os.listdir('./dataset_images/pristine/')
         temp = np.array(Image.open('./dataset_images/pristine/' + refs[0]))
         toten = transforms.ToTensor()
         temp = toten(temp)

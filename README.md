@@ -22,7 +22,16 @@ The code has been tested with:
 - Torchvision **0.11.2**
 - CUDA **11.3.1**
 
-- [ ] (TODO) add environment/requirements file.
+Set up an environment with Python **3.6.13** and install all required libraries with the ```requirements.txt``` file. If you use conda, follow the instructions below:
+
+### Setting up conda environment
+Execute the following lines one by one on the terminal.
+```
+conda create --name iqa_content_sep python=3.6.13
+conda activate iqa_content_sep
+conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 -c pytorch -c conda-forge
+conda install --file requirements_extra.txt -c conda-forge
+```
 
 ## Training
 ### Synthetic data pretraining
