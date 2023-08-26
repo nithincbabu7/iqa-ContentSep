@@ -16,8 +16,13 @@ Nithin C. Babu, Vignesh Kannan, and Rajiv Soundararajan
 ![Architecture](./imgs/MainArch3.jpg)
 
 ## Environment
-The code has been tested on **Python 3.6.13** with **Pytorch 1.10.1** and **CUDA 11.3.1**
-- [ ] <span style="color:grey">(TODO) add environment/requirements file.</span>
+The code has been tested with:
+- Python **3.6.13**
+- Pytorch **1.10.1**
+- Torchvision **0.11.2**
+- CUDA **11.3.1**
+
+- [ ] (TODO) add environment/requirements file.
 
 ## Training
 ### Synthetic data pretraining
@@ -27,7 +32,7 @@ python ./synthetic_pretraining.py --log
 ```
 
 ### Authentic data fine-tuning
-After synthetic data pre-training, please run the script to fine-tune it further on 10k samples of the AVA dataset. The AVA dataset samples used for training are specified in the ```./datasets/AVA_10k_set.csv``` file.
+After synthetic data pre-training, please run the script below to fine-tune it further on 10k samples of the AVA dataset. The AVA dataset samples used for training are specified in the ```./datasets/AVA_10k_set.csv``` file.
 ```
 python ./authentic_finetuning.py --log --mi_contrastive
 ```
